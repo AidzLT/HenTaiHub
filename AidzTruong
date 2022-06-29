@@ -1,0 +1,34 @@
+local SOMEXHUB = loadstring(game:HttpGet("https://raw.githubusercontent.com/kickTh/New-Ui/main/Mercury_Lib.lua.txt"))();
+local xNero = SOMEXHUB:Create({Name = "HenTaiz",Size = UDim2.fromOffset(600, 400),Theme = SOMEXHUB.Themes.Dark,Link = "AidzTruong/ONGTRUMTAOSCRIPT"})
+
+xNero:Notification({Title = "Welcome AidzTruong Community",Text = "Cảm Ơn Đã Dùng",Duration = 3})
+xNero:Credit{Name = "Hentaiz",Description = "Hãy Xem Hentaiz",}
+
+local Discord = xNero:Tab({Name = "Bấm Vào Mới Biết Được",Icon = "http://www.roblox.com/asset/?id=3382133020"})
+
+Discord:Button({Name = "Copy Info Facebook",Description = nil,Callback = function()
+xNero:Notification({Title = "Facebook",Text = "facebook.com/AidzLT",Duration = 3})
+setclipboard("facebook.com/AidzLT")
+end})
+
+Discord:Button({Name = "Mình Có Sell Items APOG Có Nhu Cầu Thì IB LINK FB Ở TRÊN",Description = nil,Callback = function()
+end})
+
+local Main = xNero:Tab({Name = "",Icon = "http://www.roblox.com/asset/?id=8046858332"})
+
+Main:Button({Name = "UzuHub",Description = "Script Này Khá Giòn Đấy Nên Dùng",Callback = function()
+    xNero:Notification({Title = "Uzu",Text = "facebook.com/AidzLT",Duration = 1})
+    loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+    print("UzuHub")
+    end})
+
+Main:Button({Name = "InfYiel",Description = "Cái Này Dùng Fly Để Di Chuyển Cho Nhanh | Ghi Chú Để Fly: fly 10",Callback = function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+    print("InfYiel")
+    end})
+
+Main:Button({Name = "LiokHub",Description = "Script Này Khá Giòn Đấy Nên Dùng",Callback = function()
+    xNero:Notification({Title = "LiokHub",Text = "facebook.com/AidzLT",Duration = 1})
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/LioK251/RbScripts/main/lazyhub.lua"))()
+    print("LiokHub")
+    end})
